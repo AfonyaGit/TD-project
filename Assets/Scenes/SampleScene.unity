@@ -332,6 +332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gridWidth: 16
   gridHeight: 8
+  minPathLength: 35
   pathTile: {fileID: 3399957461498294655, guid: 7efdf752022b2684baccd5804f08b44f, type: 3}
 --- !u!4 &1345221286
 Transform:
