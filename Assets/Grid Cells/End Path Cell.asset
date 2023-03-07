@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 682649c9198c64a4ab40bee3e76d5eee, type: 3}
-  m_Name: Start Path Cell
+  m_Name: End Path Cell
   m_EditorClassIdentifier: 
   cellType: 0
   cellPrefab: {fileID: 459960635544341869, guid: 63fd69b9c36571545ad0ddc1fc0bc368, type: 3}
-  yRotation: 90
+  yRotation: -90

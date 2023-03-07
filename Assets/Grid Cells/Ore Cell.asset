@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 682649c9198c64a4ab40bee3e76d5eee, type: 3}
-  m_Name: Start Path Cell
+  m_Name: Ore Cell
   m_EditorClassIdentifier: 
-  cellType: 0
-  cellPrefab: {fileID: 459960635544341869, guid: 63fd69b9c36571545ad0ddc1fc0bc368, type: 3}
-  yRotation: 90
+  cellType: 1
+  cellPrefab: {fileID: 2271777733960278965, guid: cdfdbfe9c0f33fb4c8ac590ccb7fbeb7, type: 3}
+  yRotation: 0

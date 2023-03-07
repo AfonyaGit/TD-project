@@ -95,7 +95,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7871179298265064243}
   m_Layer: 0
-  m_Name: tile_crossing
+  m_Name: Crossroads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
