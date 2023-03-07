@@ -54,15 +54,15 @@ public class GridManager : MonoBehaviour
 	IEnumerator LaySceneryCells()
 	{
 		Debug.Log("LaySceneryCells started");
-		for (int x = 0; x < gridWidth; x++)
+		for (int y = gridHeight - 1; y >= 0; y--)
 		{
-			for (int y = 0; y < gridHeight; y++)
+			for (int x = 0; x < gridWidth; x++)
 			{
 				if (pathGenerator.CellIsEmpty(x, y))
 				{
 					int randomSceneryCellIndex = Random.Range(0, sceneryCellObjects.Length);
 					Instantiate(sceneryCellObjects[randomSceneryCellIndex].cellPrefab, new UnityEngine.Vector3(x, 0f, y), UnityEngine.Quaternion.identity);
-					yield return new WaitForSeconds(0.1f);
+					yield return new WaitForSeconds(0.025f);
 				}
 			}
 		}
